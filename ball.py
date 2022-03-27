@@ -10,7 +10,7 @@ class Ball(pygame.sprite.Sprite):
 
         self.pos = pygame.math.Vector2(self.rect.topleft)
         self.dir = pygame.math.Vector2(1, 1)
-        self.speed = 800
+        self.speed = 500
 
         self.old_rect = self.rect.copy()
 

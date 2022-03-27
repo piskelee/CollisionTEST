@@ -15,7 +15,7 @@ class Player(pygame.sprite.Sprite):
         # moving
         self.pos = pygame.math.Vector2(self.rect.topleft)
         self.dir = pygame.math.Vector2()
-        self.speed = 500
+        self.speed = 600
 
         self.c_sprites = c_sprites
 

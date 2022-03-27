@@ -27,4 +27,8 @@ class World:
     def update(self, dt):
         self.screen.fill("black")
         self.all_sprites.update(dt)
+
+        for s in self.all_sprites:
+            pygame.draw.rect(self.screen, 'white', s.old_rect)
+
         self.all_sprites.draw(self.screen)
